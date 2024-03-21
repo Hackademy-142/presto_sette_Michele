@@ -1,0 +1,68 @@
+.tx1{
+    color: #E89119 ;
+}
+
+.tx2 {
+    color: #FFF7EC;
+}
+
+.bg1 {
+    background-color: #41C9BD;
+}
+
+.bg2 {
+    background-color: #E89119;
+}
+
+/* font */
+ * {
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.title {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* fine font */
+
+.transition {
+    transition: .7s;
+}
+
+/* navbar */
+.nav-scrolled {
+    margin: 5vh 15vw;
+    background-color: #E89119 !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 10px;
+}
+
+/* header */
+.btnn {
+    background-color: #E89119;
+    color: #FFF7EC;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 5px;
+}
+
+/* categorie */
+
+.imgg {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #E89119;
+    padding: 10px;
+}
+
+/* numeri */
+
+.boxNumeri {
+   height: 150px;
+   background-color:#E89119 ; 
+   border-radius: 10px;
+}
