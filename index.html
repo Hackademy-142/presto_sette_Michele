@@ -29,7 +29,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Articoli</a>
+              <a class="nav-link" href="#articoli">Articoli</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">chi siamo</a>
@@ -86,7 +86,7 @@
     <div class="container">
       <div class="row justify-content-evenly">
         <div class="col-12">
-          <h2 class="tx1 text-center pt-5">CATEGORIE</h2>
+          <h2 id="articoli" class="tx1 text-center pt-5">ARTICOLI</h2>
         </div>
         <div data-aos="flip-left" class="col-3 my-3 mx-1">
           <img class="imgg" src="./media/goku.jpg" alt="">
@@ -118,22 +118,30 @@
 
     <!-- numeri -->
     <div class="container mt-4">
+      <div class="col-12">
+        <h2 class="tx1 text-center pb-5">CATEGORIE</h2>
+      </div>
       <div class="row justify-content-evenly">
         <div class="col-2 boxNumeri d-flex flex-column justify-content-center align-items-center">
-          <h6 class="fs-3">Articoli:</h6>
-          <p>500 +</p>
+          <h6>Articoli:</h6>
+          <p><span id="numArticles"></span> + </p>
         </div>
         <div class="col-2 boxNumeri d-flex flex-column justify-content-center align-items-center">
-          <h6 class="fs-3">Utenti:</h6>
-          <p>700 +</p>
+          <h6>Utenti:</h6>
+          <p><span id="numUsers"></span> + </p>
         </div>
         <div class="col-2 boxNumeri d-flex flex-column justify-content-center align-items-center">
-          <h6 class="fs-3">Recensioni:</h6>
-          <p>800 +</p>
+          <h6>Recensioni:</h6>
+          <p><span id="numComments"></span> + </p>
         </div>
       </div>
     </div>
     <!-- fine numeri -->
+
+
+
+
+
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
