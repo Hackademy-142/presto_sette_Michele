@@ -1,0 +1,142 @@
+[
+   {
+      "id": 1,
+      "name": "Goku action figure SS",
+      "prezzo": 300,
+      "categoria": "Action Figure",
+      "img": "./imgarticoli/goku1.jpg"
+   },
+   {
+      "id": 2,
+      "name": "Maglia Dragonball Z",
+      "prezzo": 30,
+      "categoria": "T-shirt",
+      "img": "./imgarticoli/maglia.jpg"
+   },
+   {
+      "id": 3,
+      "name": "Carte Dragonball Super",
+      "prezzo": 10,
+      "categoria": "Card",
+      "img": "./imgarticoli/cardsuper.jpg"
+   },
+   {
+      "id": 4,
+      "name": "Serie DragoBall Z - stagione uno",
+      "prezzo": 20,
+      "categoria": "DVD",
+      "img": "./imgarticoli/dvd.jpg"
+   },
+   {
+      "id": 5,
+      "name": "Portachiavi DBZ",
+      "prezzo": 7,
+      "categoria": "Gadget",
+      "img": "./imgarticoli/portachiavi.jpg"
+   },
+   {
+      "id": 6,
+      "name": "Vegeta SS Blue",
+      "prezzo": 300,
+      "categoria": "Action Figure",
+      "img": "./imgarticoli/vegeta1.jpg"
+   },
+   {
+      "id": 7,
+      "name": "Maglia allenamento DB Super",
+      "prezzo": 15,
+      "categoria": "T-shirt",
+      "img": "./imgarticoli/allenamento.jpg"
+   },
+   {
+      "id": 8,
+      "name": "Figurine DB Super",
+      "prezzo": 15,
+      "categoria": "Card",
+      "img": "./imgarticoli/figurine1.jpg"
+   },
+   {
+      "id": 9,
+      "name": "Broly incazzato",
+      "prezzo": 420,
+      "categoria": "Action Figure",
+      "img": "./imgarticoli/brolyinc.jpg"
+   },
+   {
+      "id": 10,
+      "name": "Seconda stagione DB Z",
+      "prezzo": 20,
+      "categoria": "DVD",
+      "img": "./imgarticoli/dvd.jpg"
+   },
+   {
+      "id": 11,
+      "name": "Ciabatte Mare DB",
+      "prezzo": 16,
+      "categoria": "Gadget",
+      "img": "./imgarticoli/ciabatte.jpg"
+   },
+   {
+      "id": 12,
+      "name": "Sticker vari di DB Super",
+      "prezzo": 9,
+      "categoria": "Gadget",
+      "img": "./imgarticoli/sticker1.jpg"
+   },
+   {
+      "id": 13,
+      "name": "Pigiama DB Z",
+      "prezzo": 25,
+      "categoria": "Gadget",
+      "img": "./imgarticoli/pigiama.jpg"
+   },
+   {
+      "id": 14,
+      "name": "Mutande Db Super",
+      "prezzo": 14,
+      "categoria": "Gadget",
+      "img": "./imgarticoli/mutande.jpg"
+   },
+   {
+      "id": 15,
+      "name": "Goku SS blue",
+      "prezzo": 260,
+      "categoria": "Action Figure",
+      "img": "./imgarticoli/ssblu.jpg"
+   },
+   {
+      "id": 16,
+      "name": "Raccoglitore figurine DBZ",
+      "prezzo": 18,
+      "categoria": "Album",
+      "img": "./imgarticoli/albumdbz.jpg"
+   },
+   {
+      "id": 17,
+      "name": "Raccoglitore  figurine DB Super",
+      "prezzo": 18,
+      "categoria": "Album",
+      "img": "./imgarticoli/albumsuper.jpg"
+   },
+   {
+      "id": 18,
+      "name": "Stagione 5 DBZ",
+      "prezzo": 19,
+      "categoria": "DVD",
+      "img": "./imgarticoli/dvd.jpg"
+   },
+   {
+      "id": 19,
+      "name": "Film DragonBall GT",
+      "prezzo": 25,
+      "categoria": "DVD",
+      "img": "./imgarticoli/dvd.jpg"
+   },
+   {
+      "id": 20,
+      "name": "Goku SS4 Livello RARO",
+      "prezzo": 1000,
+      "categoria": "Action Figure",
+      "img": "./imgarticoli/ss4.jpg"
+   }
+]
