@@ -67,3 +67,14 @@
    background-color:#E89119 ; 
    border-radius: 10px;
 }
+
+/* card */
+
+.img-card {
+    transition: .6s;
+}
+
+.img-card:hover {
+    transform: scale(1.1);
+}
+
