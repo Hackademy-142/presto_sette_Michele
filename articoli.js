@@ -38,7 +38,7 @@ fetch("./dragonball.json").then( (response) => response.json() ).then( (data) =>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <i class="bi bi-heart fs-4"></i>
-                                    <a href="#" class="btn btn-primary">Aggiungi al Carrello</a>
+                                    <a href="#" class="btnn text-decoration-none">Aggiungi al Carrello</a>
                                 </div>
                                 </div>
                                 </div>
@@ -47,4 +47,38 @@ fetch("./dragonball.json").then( (response) => response.json() ).then( (data) =>
         });
     }
     createCards()
+
+    // categorie
+
+    let radioWrapper = document.querySelector("#radioWrapper")
+
+    function setCategories (){
+        let categories = data.map( (el) => el.categoria)
+        let uniqueCategories = []
+        categories.forEach( (category) => {
+            if (!uniqueCategories.includes(category)){
+                uniqueCategories.push(category)
+            } 
+        })
+
+    uniqueCategories.sort().forEach((categoria) =>{
+        let div = document.createElement ("div")
+        div.classList.add("form-check")
+        div.innerHTML = `
+                        
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                            ${categoria}
+                            </label>
+                        
+        
+                        `
+        radioWrapper.appendChild(div)
+    })
+
+    }
+    setCategories()
+
+
 }) 
+
